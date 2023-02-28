@@ -1,0 +1,41 @@
+{
+  "name": "abarus-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Тестовое задание для frontend разработчика, компания Абарус",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "axios": "^1.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.2",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2"
+  }
+}
