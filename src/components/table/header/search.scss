@@ -1,0 +1,31 @@
+@import '../../../styles/variables.scss';
+.search {
+    position: relative;
+    width: 631px;
+    min-height: 52px;
+  
+    &::after {
+      position: absolute;
+      content: '';
+      top: 15px;
+      right: 24px;
+      width: 21px;
+      height: 21px;
+      background: url('../../../assets/icons/search-icon.svg') center no-repeat;
+    }
+  }
+  
+  .search__input {
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    padding: 18px 26px 15px;
+    color: #fff;
+    background-color: $bg-secondary-light;
+    border: none;
+  
+    &::placeholder {
+      color: $text-color-pale;
+    }
+  }
+  

@@ -4,7 +4,7 @@ const path = require('path');
 
 const PATHS = {
   src: path.join(__dirname, './src'),
-  dist: path.join(__dirname, './dist')
+  docs: path.join(__dirname, './dist')
 }
 
 module.exports = merge(common, {
@@ -13,7 +13,7 @@ module.exports = merge(common, {
   
   devServer: {
     static: {
-      directory: PATHS.dist
+      directory: PATHS.docs
     },    
     watchFiles: ['src/**/*.tsx', 'src/**/*.scss', 'src/**/*.jsx'],
     open: false,

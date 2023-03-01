@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+.table {
+    width: 1235px;
+    margin: 0 auto;
+    padding: 23px 77px 12px;
+    background: $bg-main;
+  }
+  
+  .table__search {
+    margin-bottom: 15px;
+  }
+  
+  .table__post {
+    margin-bottom: 16px;
+  }
+  
+  .table__loading-message {
+    margin: 40px auto;
+    text-align: center;
+    color: $text-color-main;
+  }
+  
+  .table__error-message {
+    margin: 40px auto;
+    text-align: center;
+    color: red;
+  }
+  

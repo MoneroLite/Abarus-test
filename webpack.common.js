@@ -4,14 +4,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const PATHS = {
   src: path.join(__dirname, './src'),
-  docs: path.join(__dirname, './docs')
+  dist: path.join(__dirname, './dist')
 }
 
 module.exports = {
   entry: './src/index.tsx',
   output: {
     filename: 'bundle.js',
-    path: PATHS.docs,
+    publicPath: '/',
+    path: PATHS.dist,
     clean: true,
   },
 
